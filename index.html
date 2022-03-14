@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>catf1ag CTF</title>
+  <link href="assets/img/logo.jpg" rel="icon">
+  <link href="assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/lib/animate/animate.min.css" rel="stylesheet">
+  <link href="assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+<!--sweetalert-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courgette">
+  <script src="http://www.jq22.com/jquery/1.11.1/jquery.min.js"></script>
+  <script src="./assets/dist/sweetalert2.min.js"></script>
+  <link rel="stylesheet" href="./assets/dist/sweetalert2.min.css">
+  
+<!-- IE support -->
+  <script src="assets/lib/es6-promise.min.js"></script>
+<!-- Promise.finally support -->
+  <script src="assets/finally.js"></script>
+
+<style>
+    .sx{
+      border-left: 2px solid #B7D0E4;
+      display: inline-block;
+      margin-left: -1px;
+      padding: 0px 0px 0px 1px;
+      }
+</style>
+
+<script>
+
+  window.onload = function(){
+    document.getElementById('vfree').onclick = function(){
+      swal({
+        html : '<img src="assets/img/2.jpg" width=100px height=100px style="border-radius:50%"><br><br>catf1ag平台创始人，大一新生(其实是个小学生)，技术水平非常拉，希望给位giegie别嘲笑我~本人精通C,C++,C#,PHP,PYTHON,JAVA,Javascript,Ruby等编程语言的拼写，熟悉Windows，Linux，Macos，Android，IOS等操作系统的开关机，擅长PR,PS,AI,AE等软件的安装与卸载',
+        showConfirmButton:false
+      });
+    }
+
+    document.getElementById('mzq').onclick = function(){
+      swal({
+        html : '<img src="assets/img/3.jpg" width=100px height=100px style="border-radius:50%"><br><br>这位师傅有点懒，啥也没留下',
+        showConfirmButton:false
+      });
+    }
+
+      document.getElementById('v0ity').onclick = function(){
+        swal({
+        text:"mzq",
+        html : '<img src="assets/img/1.jpg" width=100px height=100px style="border-radius:50%"><br><br>性别男，爱好:睡觉，站着睡觉，躺着睡觉，侧着睡觉，ctf新入门选手，啥都不会的脚本小子。',
+        showConfirmButton:false
+      });
+      }
+
+      document.getElementById('who').onclick = function(){
+        swal({
+            html : '<img src="assets/img/logo-all.jpg" width=100px height=100px style="border-radius:50%"><br><br>你想加入我们嘛?',
+            showCancelButton: true,
+            confirmButtonText: '是的，我好想',
+            cancelButtonText: '不，我不想',
+          }).then(function(isConfirm) {
+            if (isConfirm === true) {
+              swal({
+                title:'catf1ag@163.com',
+                showConfirmButton:false
+              });
+            
+            } else if (isConfirm === false) {
+              swal({
+                html : '<img src="assets/img/wenhao.jpg" width=200px height=200px>',
+                showConfirmButton:false
+              });
+            
+            } else {
+              // Esc, close button or outside click
+              // isConfirm is undefined
+            }
+          });
+      }
+  }
+  
+  
+  
+</script>
+</head>
+
+<body>
+  <!--
+swal({
+        html : '<img src="assets/img/logo-all.jpg" width=100px height=100px style="border-radius:50%"><br><br>如果有兴趣一起运维catf1ag平台，可以联系我们噢~~<hr>catf1ag@163.com',
+        showConfirmButton:false
+      });
+    -->
+  <section id="intro">
+    <div class="intro-container">
+      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators"></ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active" style="background-image: url('assets/img/bg.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>catf1ag CTF团队核心成员</h2>
+                <!--<p>欢迎师傅加入catf1ag</p>--><br>
+                <a href="https://catf1ag.cn/" class="btn-get-started scrollto">catf1ag CTF</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ <section id="team">
+      <div class="container">
+        <div class="section-header  fadeInUp">
+          <h3>团队核心成员</h3>
+		  <p>三人行，必有我师焉</p>
+        </div>
+        
+        <div class="row">
+          <div class="col-lg-3 col-md-6 fadeInUp" id="vfree">
+            <div class="member">
+              <img src="assets/img/2.jpg" class="img-fluid" alt="" style="border-radius:50%"  width=100px height=100px >
+			  <center><h3 class="member-name">vFREE</h3></center>
+			  <center><font>广东 惠州<br />大一</font></center>
+              <div class="member-info">
+                <div class="member-info-content">
+                </div>
+              </div>
+            </div>
+          </div>
+        
+
+<!--<div class="sx"></div>-->
+
+          <div class="col-lg-3 col-md-6 fadeInUp" id="mzq">
+            <div class="member">
+              <img src="assets/img/3.jpg" class="img-fluid" alt="" style="border-radius:50%"  width=100px height=100px>
+			  <div class="name-plate text-center">
+				<h3 class="expert-name">mzq</h3>
+				<font>江西 南昌<br />大二<br/></font>
+			  </div>
+              <div class="member-info">
+                <div class="member-info-content">
+                </div>
+              </div>
+            </div>
+          </div>
+
+<!--<div class="sx"></div>-->
+
+          <div class="col-lg-3 col-md-6  fadeInUp" id="v0ity">
+            <div class="member">
+              <img src="assets/img/1.jpg" class="img-fluid" alt="" style="border-radius:50%"  width=100px height=100px>
+			  <div class="name-plate text-center">
+				<h3 class="expert-name">v0ity</h3>
+				<font>广东 深圳<br />大一</font>
+			  </div>
+              <div class="member-info">
+                <div class="member-info-content">
+                </div>
+              </div>
+            </div>
+          </div>
+
+<!--<div class="sx"></div>-->
+
+          <div class="col-lg-3 col-md-6 fadeInUp" id="who">
+            <div class="member">
+              <img src="assets/img/logo-all.jpg" class="img-fluid" alt="" style="border-radius:50%"  width=100px height=100px>
+			  <div class="name-plate text-center">
+				<h3 class="expert-name">虚位以待</h3>
+				<font>欢迎各位有意向一起运营好平台的师傅加入，有意者可以联系邮箱catf1ag@163.com<br /><br/></font>
+			  </div>
+              <div class="member-info">
+                <div class="member-info-content">
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          </div>
+        </div>
+	  </div>
+    </section><!-- #team -->
+  </main>
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>关于我们</h4>
+            <p>关于我们是谁，双枪会给出答案</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>友情链接</h4>
+            <ul>
+              <li></i><a href="https://catf1ag.cn/">catf1ag CTF</a></li>
+              <li></i> <a href="http://vfree.ltd">vFREE博客</a></li>
+              <li></i><a href="https://blog.csdn.net/zip471642048">mzq博客</a></li>
+            </ul>
+          </div>
+        </div>
+        
+</body>
+</html>
